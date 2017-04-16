@@ -65,8 +65,6 @@ def get_info(idlist):#获取信息
     a.to_csv('ll.csv')
 
 
-
-
 if __name__ == '__main__':
     with open('id.txt') as f:
         str = str(f.readlines())
